@@ -21,3 +21,5 @@ function parseURLParams(url) {
     }
     return parms;
 }
+
+window.location.href = data.redirectID[0]
