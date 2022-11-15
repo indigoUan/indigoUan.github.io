@@ -22,4 +22,4 @@ function parseURLParams(url) {
     return parms;
 }
 
-window.location.href = data.redirectID[0]
+window.location.href = data.redirectID[0] + ".html"
