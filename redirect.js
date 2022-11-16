@@ -1,6 +1,6 @@
 let data = parseURLParams(window.location.href)
 
-console.log(data)
+console.log(data["redirectID"])
 
 function parseURLParams(url) {
     var queryStart = url.indexOf("?") + 1,
