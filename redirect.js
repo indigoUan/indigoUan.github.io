@@ -1,8 +1,5 @@
 var data = parseURLParams(window.location.href)
 
-console.log(data.redirectID)
-console.log(data["redirectID"])
-
 function parseURLParams(url) {
     var queryStart = url.indexOf("?") + 1,
         queryEnd   = url.indexOf("#") + 1 || url.length + 1,
