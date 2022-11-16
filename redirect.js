@@ -1,4 +1,4 @@
-let data = parseURLParams(window.location.href)
+var data = parseURLParams(window.location.href)
 
 console.log(data.redirectID)
 console.log(data["redirectID"])
