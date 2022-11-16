@@ -20,4 +20,4 @@ function parseURLParams(url) {
     return parms;
 }
 
-window.location.href = "https://github.com/indigoUan/indigoUan.github.io/blob/main/" + data['redirectID'][0] + ".html"
+window.location.href = "https://raw.githubusercontent.com/indigoUan/indigoUan.github.io/main/" + data['redirectID'][0] + ".html"
